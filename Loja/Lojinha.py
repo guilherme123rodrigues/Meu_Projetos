@@ -25,7 +25,17 @@ item = [
             [
                 {'nome': 'Guarda-roupa', 'valor': 2_999},
                 {'nome': 'Messa', 'valor': 399},
-                {'nome': 'Cadeira', 'valor': 299}
+                {'nome': 'Cadeira', 'valor': 299},
+                {'nome': 'Sofá', 'valor': 2500},
+                {'nome': 'Mesa de jantar', 'valor': 1800},
+                {'nome': 'Cadeira', 'valor': 300},
+                {'nome': 'Guarda-roupa', 'valor': 2200},
+                {'nome': 'Cama casal', 'valor': 2000},
+                {'nome': 'Estante', 'valor': 900},
+                {'nome': 'Rack TV', 'valor': 850},
+                {'nome': 'Mesa de escritório', 'valor': 1200},
+                {'nome': 'Poltrona', 'valor': 1100},
+                {'nome': 'Armário', 'valor': 2000}
             ]
         ],
             
@@ -35,9 +45,19 @@ item = [
             [
                 {'nome': 'Teclado', 'valor': 99},
                 {'nome': 'Mause', 'valor': 39},
-                {'nome': 'Monitor 21 polegadas', 'valor': 899}
-            ]
-        ],
+                {'nome': 'Monitor 21 polegadas', 'valor': 899},
+                {'nome': 'Notebook', 'valor': 4500},
+                {'nome': 'Smartphone', 'valor': 3000},
+                {'nome': 'Tablet', 'valor': 2000},
+                {'nome': 'Monitor', 'valor': 1200},
+                {'nome': 'Teclado mecânico', 'valor': 500},
+                {'nome': 'Mouse gamer', 'valor': 300},
+                {'nome': 'Headset', 'valor': 400},
+                {'nome': 'Impressora', 'valor': 700},
+                {'nome': 'SSD 1TB', 'valor': 600}, 
+                {'nome': 'Placa de vídeo', 'valor': 3500}
+           ]
+       ],
             
             # Categoria Eletrodomestico
         [
@@ -45,7 +65,18 @@ item = [
             [
                 {'nome': 'Micro-ondas', 'valor': 899},
                 {'nome': 'Maquina de kavar 12k', 'valor': 2_399},
-                {'nome': 'Geladeira', 'valor': 3_299}
+                {'nome': 'Geladeira', 'valor': 3_299},
+                {'nome': 'Geladeira', 'valor': 3500},
+                {'nome': 'Micro-ondas', 'valor': 700},
+                {'nome': 'Máquina de lavar', 'valor': 2800},
+                {'nome': 'Fogão', 'valor': 1500},
+                {'nome': 'Air fryer', 'valor': 600},
+                {'nome': 'Liquidificador', 'valor': 200},
+                {'nome': 'Batedeira', 'valor': 400},
+                {'nome': 'Aspirador de pó', 'valor': 900},
+                {'nome': 'Forno elétrico', 'valor': 800}, 
+                {'nome': 'Ventilador', 'valor': 250}
+            
             ]
         ]
 ]
