@@ -14,7 +14,7 @@ def ler():
                 pass
     else:
             console.print("-"*30)
-            for c in lista:
+            for c in sorted(lista):
                     print(f"{c[0]:<10}{c[1]} anos")
             console.print("-"*30)
                 
