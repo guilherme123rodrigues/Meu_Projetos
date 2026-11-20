@@ -1,0 +1,55 @@
+body {
+    background-color: bisque;
+}
+
+main {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: rgb(0, 0, 7);
+}
+
+form {
+    background-color: azure;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    height: 120px;
+    width: 360px;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+}
+
+#nome {
+    margin-right: 60px;
+}
+
+#sobrenome {
+    margin-right: 90px;
+}
+
+#e-mail {
+    margin-right: 100px;
+}
+
+input {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+#botao {
+    margin-left: 40px;
+}
+
+#botao:hover {
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
