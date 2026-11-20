@@ -18,20 +18,26 @@
     <main>
         <div>
             <form>
-                <label for="name"><b>Nome:</b></label>
-                <input type="text" name="nome" id="nome">
+                <label for="nome"><b>Nome:</b></label>
+                <input type="text" name="nome" id="nome" required>
 
                 <label for="sobrenome"><b>Sobrenome:</b></label>
-                <input type="text" name="sobrenome" id="sobrenome">
+                <input type="text" name="sobrenome" id="sobrenome" required>
 
                 <label id="emai" for="email"><b>E-mail:</b></label>
-                <input type="text" name="e-mail" id="e-mail">
+                <input type="text" name="e-mail" id="e-mail" placeholder="seue-mail@gmail.com" required>
+
+                <label for="endereco"><b>Endereço</b></label>
+                <input type="text" name="endereço" id="endereço" style="width: 159px" required>
+
+                <label for="cep"><b>CEP</b></label>
+                <input type="text" name="cep" id="cep" placeholder="00000-000" style="width: 80px;" required>
 
                 <label for="sexo"><b>Sexo:</b></label>
-                <input type="radio" name="masculino" id="sexo1"> Masculino
-                <input type="radio" name="feminino" id="sexo2"> Feminino
+                <input type="radio" name="sexo" id="sexo1" checked> Masculino
+                <input type="radio" name="sexo" id="sexo2"> Feminino
 
-                <input type="button" value="Cadastrar" id="botao">
+                <input type="button" value="Cadastrar" id="botao" onclick="clicar()">
             </form>
         </div>
     </main>
@@ -39,6 +45,8 @@
     <footer>
         <p>&copy; Criptografado de ponta a ponta</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 

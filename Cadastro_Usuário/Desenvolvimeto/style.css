@@ -1,5 +1,6 @@
 body {
-    background-color: bisque;
+    background-color: #566B81;
+    margin: 10%;
 }
 
 main {
@@ -8,14 +9,14 @@ main {
 
 header {
     text-align: center;
-    color: rgb(0, 0, 7);
+    color: azure;
 }
 
 form {
-    background-color: azure;
-    box-shadow: 5px 5px 10px;
+    background-color: #234D68;
+    color: azure;
     border-radius: 10px;
-    height: 120px;
+    height: 170px;
     width: 360px;
     padding: 10px;
     margin: auto;
@@ -35,21 +36,21 @@ form {
 }
 
 input {
-    margin-top: 5px;
+    margin-top:10px;
     font-size: 15px;
 }
 
 #botao {
-    margin-left: 40px;
+    margin-left: 60px;
+    background-color: #DC0807;
+    color: white;
 }
 
 #botao:hover {
-    color: green;
-    font-weight: bold;
+    color: yellow;
 }
 
 footer {
     text-align: center;
-    color: blue;
-    font-weight: bold;
+    color: azure;
 }
